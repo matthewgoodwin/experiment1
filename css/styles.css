@@ -1,5 +1,5 @@
 * {
-     /*border: 1px solid red !important;
+     border: 1px solid red !important;
     /*background-color: rgb(232, 232, 232);*/
 }
 
@@ -24,37 +24,40 @@ nav {
     position: fixed;
     width: 100%;
     height: 40px;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .8);
 }
-
 .mainSec {
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    /*background-color: red;*/
 }
-
+.division{
+    height: 5px;
+}
 .subSec{
-    height: 50%;
+    height: 40%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     /*background-color: green;*/
 }
-
-.mainSec1 {
-    background-image: url("../images/Matthew8.jpg");
+#mainSec1 {
+   background-image: url("../images/Matthewfinal.jpg");
 }
 
-.mainSec2 {
-    background-image: url("../images/Matthew2+3.jpg");
+#subSec1 {
+    /*background-image: url("../images/Matthew2+3.jpg");*/
+    background-color: green;
+   }
+
+#mainSec2 {
+    background-image: url("../images/WorldTour.jpg");
+    /*background-color: pink;*/
 }
 
-.subSec1 {
-    background-image: url("../images/Matthew4.jpg");
-}
-.subSec2 {
-    background-image: url("../images/Matthew8.jpg");
+#subSec2 {
+    /*background-image: url("../images/Matthew8.jpg");*/
+    background-color: purple;
 }
